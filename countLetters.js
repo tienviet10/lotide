@@ -5,10 +5,10 @@ const assertEqual = (actual, expected) => {
 };
 
 const countLetters = (str) => {
-  let res = {};
+  const res = {};
 
-  for (let c of str) {
-    res[c] = res[c] ? res[c] + 1 : 1;
+  for (let letter of str) {
+    res[letter] = res[letter] ? res[letter] + 1 : 1;
   }
   return res;
 };
