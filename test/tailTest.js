@@ -15,6 +15,6 @@ describe("#head", () => {
     assert.strictEqual(result[0], "Lighthouse");
   });
   it("returns Labs for ['Hello', 'Lighthouse', 'Labs']", () => {
-    assert.strictEqual(result[1], "Labs");
+    assert.deepEqual(result, ["Lighthouse", "Labs"]);
   });
 });
