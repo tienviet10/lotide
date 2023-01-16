@@ -1,3 +1,4 @@
+/* eslint-disable space-before-function-paren */
 // FUNCTION IMPLEMENTATION
 const assertEqual = (actual, expected) => {
   actual === expected
@@ -5,6 +6,8 @@ const assertEqual = (actual, expected) => {
     : console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
 };
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
+// // TEST CODE
+// assertEqual("Lighthouse Labs", "Bootcamp");
+// assertEqual(1, 1);
+
+module.exports = assertEqual;
